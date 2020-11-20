@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEEEEE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.userCard {
+    min-width: 220px;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    margin: 25px auto;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    box-shadow: 0 8px 20px #00000069;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.userImageContainer {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.userImageContainer > img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+}
+
+.userInfoContainer {padding: 20px 0;display: block !important;}
+
+.userInformation {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    margin: 20px 0 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.userCard > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.userInfo {
+    color: grey;
+}
+
+h1.userFullName {
+    font-weight: 700;
+}
+.title {
+   border-bottom: 3px double #c6c6c6;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+}
